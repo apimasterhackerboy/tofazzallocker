@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/nagad-locker.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/nagad-locker",
+      "dest": "/api/nagad-locker.js"
+    }
+  ]
+}
